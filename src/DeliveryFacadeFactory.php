@@ -26,7 +26,7 @@ class DeliveryFacadeFactory
      */
     public function create(): DeliveryFacade
     {
-        $container = $container ?? new Container();
+        $container ??= new Container();
 
         return new DeliveryFacade(
             $this->container->get(DeliveryOrderService::class),
