@@ -1,6 +1,12 @@
 # Delivery SDK
 PHP SDK for Paysera delivery gateway integration
 
+# Repository outdated
+
+Git repository for this library was moved to https://github.com/paysera/lib-delivery-sdk
+
+**This repository is only in read mode.**
+
 ## Code style
 [PSR-12](https://www.php-fig.org/psr/psr-12)
 
